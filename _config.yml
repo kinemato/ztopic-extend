@@ -9,8 +9,8 @@ fancybox: true
 menu:
   home: /
   archive: /archives
-  #category: /categories
-  #tags: /tags
+  category: /categories
+  tags: /tags
   about: /about
 
 # site logo introduce and footer quote
@@ -47,7 +47,7 @@ leancloud:
 # Valine comment system. https://valine.js.org
 valine:
   comment_name: 留言板 #your comment area title
-  enable: true # if you want use valine, please set this value to true
+  enable: false # if you want use valine, please set this value to true
   app_id:  # your leancloud appId
   app_key:  # your leancloud appKey
   notify: false # Mail notify
