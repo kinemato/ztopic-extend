@@ -4,6 +4,7 @@ menu:
   tags: 标签
   category: 分类
   about: 关于
+  search: 搜索
 
 pagination:
   prev: 上一页

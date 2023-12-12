@@ -7,8 +7,18 @@
   url('//at.alicdn.com/t/font_425542_ayw19yrbb2xfxbt9.svg?t=1511273246658#iconfont') format('svg'); /* iOS 4.1- */
 }
 
+// add search icon
+@font-face {font-family: "iconfont_search";
+  src: url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.eot?t=1702369183958'); /* IE9 */
+  src: url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.eot?t=1702369183958#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.woff2?t=1702369183958') format('woff2'),
+       url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.woff?t=1702369183958') format('woff'),
+       url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.ttf?t=1702369183958') format('truetype'),
+       url('//at.alicdn.com/t/c/font_4369809_t3f2gap5nb.svg?t=1702369183958#iconfont') format('svg');
+}
+
 .iconfont {
-  font-family:"iconfont" !important;
+  font-family:"iconfont","iconfont_search"  !important;
   font-size:16px;
   font-style:normal;
   -webkit-font-smoothing: antialiased;
@@ -68,3 +78,5 @@
 .icon-github:before { content: "\e600"; }
 
 .icon-instagram:before { content: "\e641"; }
+
+.icon-search:before { content: "\e601"; }

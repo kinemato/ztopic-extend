@@ -4,6 +4,7 @@ menu:
   tags: Tags
   category: Category
   about: About
+  search: search
 
 pagination:
   prev: Prev
