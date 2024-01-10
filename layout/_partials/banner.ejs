@@ -1,6 +1,8 @@
 <div class="banner">
   <div class="show">
-    <!-- <img src="<%- url_for(theme.banner) %>" alt="banner"> -->
+    <% if(theme.banner){ %>
+      <img src="<%- url_for(theme.banner) %>" alt="banner img lost" class="banner-img">
+    <% } %>
     <div class="banner-title">
       <%if(is_post()){%>
         <div class="post-title">

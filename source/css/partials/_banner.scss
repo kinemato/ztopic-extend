@@ -8,6 +8,13 @@
     background: $main-color;
     color: $theme-font-color;
     text-align: center;
+    .banner-img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      -webkit-user-drag: none;
+    }
     div.banner-title{
       position: absolute;
       left: 18%;

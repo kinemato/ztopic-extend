@@ -1,6 +1,9 @@
 # Miscelaneous
 favicon: /favicon.ico
 
+# banner
+banner: /banner.jpg
+
 # fancybox gallery
 fancybox: true
 

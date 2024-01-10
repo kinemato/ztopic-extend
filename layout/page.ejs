@@ -38,14 +38,16 @@
     <div class="category-meta">
       <%- _p('counter.category', site.categories.length) %>
     </div>
-    <ul>
-    <%site.categories.each(function(sorting){%>
-      <li>
-        <a class="category-item" href="<%= url_for(sorting.path) %>">
-          <i class="iconfont icon-folder"></i><%= sorting.name %><span>(<%= sorting.length %>)</span>
-        </a>
-      </li>
-    <%})%>
-    </ul>
+    <%if(site.categories.length > 0){%>
+      <ul>
+      <%site.categories.each(function(sorting){%>
+        <li>
+          <a class="category-item" href="<%= url_for(sorting.path) %>">
+            <i class="iconfont icon-folder"></i><%= sorting.name %><span>(<%= sorting.length %>)</span>
+          </a>
+        </li>
+      <%})%>
+      </ul>
+    <%}%>
   </div>
 <%}%>
